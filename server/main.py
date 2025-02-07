@@ -13,7 +13,7 @@ CORS(app)
 
 
 
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///order_tracker.db'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://ordertrackerdb_ju8c_user:pSZcU6wjKjGAO1G7OL96YY944ayZquIz@dpg-cuiv77dumphs73bjh4vg-a.oregon-postgres.render.com/ordertrackerdb_ju8c'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 migrate = Migrate(app, db)
 db.init_app(app)

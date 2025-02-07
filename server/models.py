@@ -6,7 +6,7 @@ class User(db.Model):
     first_name = db.Column(db.String(80), unique=False, nullable=False)
     last_name = db.Column(db.String(80), unique=False, nullable=False)
     email = db.Column(db.String(255), unique=True, nullable=False)
-    password = db.Column(db.String(255), nullable=False)
+    password = db.Column(db.String(512), nullable=False)
     is_admin = db.Column(db.Boolean, default=False)
 
     orders = db.relationship('Order', backref='user', lazy=True)

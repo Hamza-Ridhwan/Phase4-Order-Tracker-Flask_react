@@ -36,12 +36,7 @@ An Order Tracker application that allows users to track the status and delivery 
 - Flask-CORS: For handling Cross-Origin Resource Sharing (CORS).
 - Werkzeug: A WSGI utility library for Flask.
 
-## Video Demo
-- https://drive.google.com/file/d/1mIYvAd_P4RJZ_BPYfkB4AnMNTj_pGf_1/view?usp=sharing
 
-
-## Challenged faced
-- Couldn't deploy the app due to the failure of gunicorn installation. (After Installation it didn't work)
 
 
 ## Contact
